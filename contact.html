@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html>
+
+<head>
+	<title>Contact</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<script type="text/javascript" src="myscript.js"></script>
+</head>
+
+<body>
+	<div id=container>
+		<a class="backLink" id="backLinkHome" href="myindex.html"> Home </a>
+		<a class="backLink" id="backLinkContact" href="#"> Contact </a>
+		<a class="backLink" id="backLinkBrowse" href="#"> Browse </a>
+		<a class="backLink" id="backLinkAboutUs" href="about.html"> About Us </a>
+	</div>
+
+	<h1 id='head'>Please feel free to leave a comment</h1>
+	<br> <br>
+	<div class="form">
+		<form method="post" action="form.php">
+			<label for="fName"> First Name:</label>
+			<input id='first' required type="text" name="fName" value="">
+			<br><br>
+			<label for="lName"> Last Name:</label>
+			<input id='last' required type="text" name="lName" value="">
+			<br><br>
+			<label for="textfield"> Email:</label>
+			<input id="email" type="email" name="email" value="" required>
+			<br> <br> <br>
+			<label for="message"> Comment </label>
+			<br>
+			<textarea id='tArea' rows="10" cols="30" name="textArea" value="" required></textarea>
+			<br> <br>
+			<input type="submit" name="submit" value="Send">
+		</form>
+	</div>
+	<div class="contactInfo">
+
+		<h2> You can contact us by</h2>
+
+		<h3> Telephone</h3>
+		<p> 876-4633778 </p>
+		<h3> Email </h3>
+		<a href="mailto:delecioustreat@yahoo.com"> delicioustreat@yahoo.com</a>
+		<br>
+		<p> We are also on <a href="#"> Facebook</a> and <a href="#">Instagram</a>. Check us out</p>
+	</div>
+	<canvas draggable="auto"> Hello </canvas>
+</body>
+
+</html>

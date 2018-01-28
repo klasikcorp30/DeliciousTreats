@@ -1,0 +1,134 @@
+html {
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0 auto;
+	background-color: ghostwhite;
+	padding: 0 auto;
+	transition: 1s;
+	color: bisque clear: both;
+}
+
+.contactInfo {
+	text-decoration: none;
+	border: solid black 1.3423px;
+	box-sizing: border-box;
+	width: 30%;
+	position: absolute;
+	left: 69%;
+	top: 35%;
+	padding: 25px;
+	text-align: none;
+	border-radius: 25px;
+
+}
+
+.form {
+	width: 30%;
+	position: absolute;
+	top: 32%;
+	left: 3%;
+	border: 2px solid black;
+	padding: 15px;
+	height: 60%;
+	background-color: bisque;
+	border-radius: 20px;
+
+}
+
+input[type="submit"]:hover {
+	box-shadow: 5px 5px 60px 0px darkgrey;
+	border-style: ridge;
+}
+
+input[name="fName"] {
+	margin-left: 1%;
+	font-family: Arial;
+	font-style: italic;
+	padding-right: 2.7%;
+}
+
+input[type="email"] {
+	margin-left: 10%;
+	font-family: Arial;
+	font-style: italic;
+	padding-right: 2.7%;
+}
+
+input[name="lName"] {
+	margin-left: 1%;
+	font-family: Arial;
+	font-style: italic;
+	padding-right: 2.7%;
+}
+
+input[type="submit"] {
+	-webkit-appearance: button;
+	cursor: pointer;
+	background: none;
+	padding: 5px;
+	width: 70%;
+	border-radius: 6px;
+	margin-top: 10%;
+	margin-left: 14%;
+
+}
+
+textarea {
+	margin-top: 3%;
+	width: 100%;
+}
+
+#head {
+	margin-top: 10%;
+	font-size: 20px;
+	margin-left: 3%;
+	font-family: sans-serif;
+
+}
+
+.backLink {
+	text-decoration: none;
+	color: midnightblue;
+	top: 60px;
+	margin-left: 40px;
+	padding: 10px 60px 10px 60px;
+	background: none;
+	border-radius: 10px;
+
+}
+
+#backLinkHome:hover {
+	background: rgb(2, 3, 54);
+	color: ghostwhite;
+	transition: 0.43s;
+}
+
+#backLinkBrowse:hover {
+	background: blueviolet;
+	color: aliceblue;
+	transition: 0.43s;
+}
+
+#backLinkContact:hover {
+	background: rgb(23, 45, 4);
+	color: ghostwhite;
+	transition: 0.43s;
+}
+
+#backLinkAboutUs:hover {
+	background: rgb(45, 2, 190);
+	color: aliceblue;
+	transition: 0.43s;
+}
+
+#container {
+	padding: 4%;
+	background: rgb(232, 124, 145);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding-left: 17%
+}

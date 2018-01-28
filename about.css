@@ -1,0 +1,78 @@
+html {
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0 auto;
+	background-color: whitesmoke;
+	padding: 0 auto;
+	transition: 1s;
+	color: bisque clear: both;
+}
+
+h1 {
+	font-family: Mordred-Bold, Verdana, sans-serif;
+	font-size: 3em;
+	text-align: center;
+}
+
+aside {
+	width: 52%;
+	line-height: 50px;
+	font-family: sans-serif;
+	margin-top: 60px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+img {
+	position: absolute;
+	left: 55%;
+	top: 20%;
+	border-radius: 20px;
+}
+
+.backLink {
+	text-decoration: none;
+	color: midnightblue;
+	top: 60px;
+	margin-left: 40px;
+	padding: 10px 60px 10px 60px;
+	background: none;
+	border-radius: 10px;
+
+}
+
+#backLinkHome:hover {
+	background: rgb(2, 3, 54);
+	color: ghostwhite;
+	transition: 0.43s;
+}
+
+#backLinkBrowse:hover {
+	background: blueviolet;
+	color: aliceblue;
+	transition: 0.43s;
+}
+
+#backLinkContact:hover {
+	background: rgb(23, 45, 4);
+	color: ghostwhite;
+	transition: 0.43s;
+}
+
+#backLinkAboutUs:hover {
+	background: rgb(45, 2, 190);
+	color: aliceblue;
+	transition: 0.43s;
+}
+
+#container {
+	padding: 4%;
+	background: rgb(232, 124, 145);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding-left: 17%
+}

@@ -1,0 +1,114 @@
+body {
+	background-image: url(background2.jpg);
+	background-size: cover;
+}
+
+#title {
+	color: aliceblue;
+	font-family: Myriad Pro Light, sans-serif, serif;
+	font-size: 32px;
+	border: 0.653945837px solid #DDDDDD;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	padding: 20px;
+	width: 35%;
+	box-sizing: content-box;
+	text-align: center;
+	border-radius: 10px;
+	position: relative;
+	left: 30%;
+}
+
+#btn-remix {
+	background: none;
+	color: antiquewhite;
+	border: 1.432344px solid ghostwhite;
+	padding: 30px;
+	width: 20%;
+	margin: 10px;
+	font-family: Meta-Bold;
+	font-size: 18px;
+	letter-spacing: 1.454293px;
+	line-height: 1.2343%;
+	position: relative;
+	left: 26%;
+	top: 120px;
+	border-radius: 45px;
+}
+
+#btn-remix:hover {
+	background-color: aquamarine;
+	color: rgb(10, 23, 55);
+	transition: 1.5s;
+	cursor: pointer;
+}
+
+#btn-remix1:hover {
+	background-color: darksalmon;
+	color: ghostwhite;
+	transition: 1.5s;
+	cursor: pointer;
+}
+
+#btn-remix1 {
+	background: none;
+	color: antiquewhite;
+	border: 1.432344px solid ghostwhite;
+	padding: 30px;
+	width: 20%;
+	margin: 10px;
+	font-family: Meta-Bold;
+	font-size: 18px;
+	letter-spacing: 1.454293px;
+	line-height: 1.2343%;
+	position: relative;
+	left: 26%;
+	top: 120px;
+	border-radius: 45px;
+}
+
+.backLink {
+	text-decoration: none;
+	color: midnightblue;
+	top: 60px;
+	margin-left: 40px;
+	padding: 10px 60px 10px 60px;
+	background: none;
+	border-radius: 10px;
+
+}
+
+#backLinkHome:hover {
+	background: rgb(2, 3, 54);
+	color: ghostwhite;
+	transition: 0.43s;
+}
+
+#backLinkBrowse:hover {
+	background: blueviolet;
+	color: aliceblue;
+	transition: 0.43s;
+}
+
+#backLinkContact:hover {
+	background: rgb(23, 45, 4);
+	color: ghostwhite;
+	transition: 0.43s;
+}
+
+#backLinkAboutUs:hover {
+	background: rgb(45, 2, 190);
+	color: aliceblue;
+	transition: 0.43s;
+}
+
+#container {
+	padding: 4%;
+	margin-top: -25px;
+	background: rgb(232, 124, 145);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding-left: 17%;
+	margin-left: -5px;
+}
